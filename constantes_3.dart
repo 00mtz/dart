@@ -1,5 +1,5 @@
 main () {
-  /*var lista = ['Douglas', 'Gui', 'JP'];
+  var lista = ['Douglas', 'Gui', 'JP'];
   lista.add('Mateus');  
   print(lista);
 
@@ -11,15 +11,11 @@ main () {
   lista = ['Quer café?1], o programa apresentaria erros*/
 
   final lista3 = const ['001', '002', '003',];
-  lista3.add('004'); // como previsto o codigo apresentou erros */
+  lista3.add('004'); // como previsto o codigo apresentou erros 
 
+   
   
-  
-  
-  
-  
-  
-  const lista = const['Minha Velha', 'Traga Meu', 'Jantar'];
+  var lista = const['Minha Velha', 'Traga Meu', 'Jantar'];
   print(lista);
   lista = ['Sopa', 'Uva', 'Nozes'];
   print(lista);
