@@ -1,6 +1,6 @@
 main () { 
 
-var times = {'Ceará', 'Fortaleza', 'Fluminense', 
+Set<String> times = {'Ceará', 'Fortaleza', 'Fluminense', 
 'Vasco', 'Ferroviário'};
 
 print(times is Set);

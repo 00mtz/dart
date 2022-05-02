@@ -10,6 +10,9 @@ main () {
   String atribuido2 = estaFrio ? "Valor atribuído = TRUE" : "Valor atribuído = FALSE";
   print(atribuido2);
 
+  print(estaFrio);
+  print(estaChovendo);
+
   String resultado = estaChovendo || estaFrio ? "Fique em casa." : "Pode sair de casa!";
   print(resultado);
   String resultado2 = estaChovendo || estaFrio ? "Você deu azar..." : "SORTUDO!!!";

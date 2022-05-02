@@ -10,7 +10,7 @@ main () {
   print(produtoFragil && produtoCaro); // OPERAÇÃO LÓGICA AND
   print(produtoFragil || produtoCaro); // OPERAÇÃO LÓGICA OR
   print(produtoFragil ^ produtoCaro); // OPERAÇÃO LÓGICA XOR 
-  print(produtoFragil ^ produtoGrande);
+  print(!(produtoFragil ^ produtoGrande)); // OPERAÇÃO LÓGICA XNOR = !(XOR)
 
   print(!variavelX);
 

@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 main () {
   
   String nome = 'Mateus';
