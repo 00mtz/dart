@@ -15,11 +15,11 @@ main () {
 
    
   
-  var lista = const['Minha Velha', 'Traga Meu', 'Jantar'];
-  print(lista);
-  lista = ['Sopa', 'Uva', 'Nozes'];
-  print(lista);
-  lista.add('Cadê o pão???');
-  print(lista);
+  var lista4 = ['Minha Velha', 'Traga Meu', 'Jantar'];
+  print(lista4);
+  lista4 = ['Sopa', 'Uva', 'Nozes'];
+  print(lista4);
+  lista4.add('Cadê o pão???');
+  print(lista4);
 
 }
