@@ -10,6 +10,14 @@ while(digitado != 'sair')  {
    
 };
 
-print('Fim!');
+print('Fim do while');
 
+//do-while
+
+do  {
+  stdout.write('Digite algo ou sair: ');
+  digitado = stdin.readLineSync() ?? "";
+} while(digitado != 'sair');
+  
+print('Fim do do-while');
 }
