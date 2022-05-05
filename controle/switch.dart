@@ -16,6 +16,9 @@ main()  {
       break;
     case 7:
       print('voce acertou 70% das questoes');
-      break;   
+      break; 
+    case 0:
+      print('voce tirou 0')  ;
+      break;
   }
 }

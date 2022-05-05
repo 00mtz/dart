@@ -3,7 +3,7 @@ main () {
   // Operadores Booleanos
 
   bool produtoFragil = true;
-  bool produtoCaro  = false;
+  bool produtoCaro  = true;
   bool produtoGrande = true;
   bool variavelX = false;
 

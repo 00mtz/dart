@@ -1,5 +1,6 @@
 main () {
-    for(int a = 0; a < 10; a++) {
+    for(int a = 0; a < 10; a++) 
+    {
       if(a == 6) {
         break;
       }
@@ -9,8 +10,10 @@ main () {
     print('Fim do FOR #01');
       
 
-   for(int a = 0; a < 10; a++) {
-      if(a % 2 == 0) {
+   for(int a = 0; a < 10; a++) 
+   {
+      if(a % 2 == 0) 
+      {
         continue;
       }
     print(a);

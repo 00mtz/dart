@@ -12,13 +12,10 @@ main() {
     print(s2);
     String s3 = s2.toUpperCase();
     print(s3);
-    String s4 = s3.padRight(30, "Φ");
+    String s4 = s3.padRight(30, "bomdia");
     print(s4);
 
-    var s5 = 'João Pedro'
-    .substring(5    , 10)
-    .toUpperCase()
-    .padRight(18,'Φ');
+    var s5 = 'João Pedro'.substring(5    , 10).toUpperCase().padRight(18,'Φ');
     
     print(s5);
 }

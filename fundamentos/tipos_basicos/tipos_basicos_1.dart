@@ -5,7 +5,7 @@ main() {
     
     // Bool //
 
-    bool estouCansado = true;
+    bool estouCansado = false;
     bool tenhoCompromisso = false;
 
     print(estouCansado || tenhoCompromisso);

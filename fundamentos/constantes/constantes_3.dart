@@ -12,10 +12,10 @@ main () {
   ou seja, ao invés de usar lista.add você tivesse usado
   lista = ['Quer café?1], o programa apresentaria erros*/
 
-  final lista3 = const ['001', '002', '003',];
+  final lista3 = ['001', '002', '003',];
   lista3.add('004'); // como previsto o codigo apresentou erros 
-
-   
+  print(lista3);
+  
   
   var lista4 = ['Minha Velha', 'Traga Meu', 'Jantar'];
   print(lista4);
