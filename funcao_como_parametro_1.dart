@@ -1,14 +1,22 @@
 import 'dart:math';
 
-void executarPor(int qtde, Function(String) fn, String valor)  {
-  for(int i = 0; i < qtde; i++) {
-    fn(valor); // nesse casso fn() se transforma em "print();", já que esse foi o valor inserido por nós.
-  }            // Além disso, o que estará dentro do print é "Muito bom!", que também foi definido por nós
+void executar(Function fnPar, Function fnImpar) {
+  var sorteado =  Random().nextInt(10);
+  print(sorteado);                        // é  possível fazer isso com If-Else
+  sorteado % 2 == 0 ? fnPar(): fnImpar(); // Esse operador ternário guarda um dos parâmetros da função na própria função.   
 }
 
 main() {
-  
-  print('Teste');
-  executarPor(10, print, "Muito bom!") ;                         
+  var minhaFnPar = () => print('O valor é par.');
+  var minhaFnImpar = () => print('O valor é ímpar');
+
+  executar(minhaFnPar, minhaFnImpar); // executando uma função em que  a função guardade dentro de uma variável é parâmetro para outra
+  // por se tratar de um parâmetro    // função
+  // posicional, o primeiro valor 
+  // será impresso quando o valor
+  // for impar, e o segundo quando 
+  // o valor sorteado for par     
+
+                     
 }
 
